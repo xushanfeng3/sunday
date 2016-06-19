@@ -7,6 +7,9 @@ public class Main {
 		company.setAddress("朝阳公园");
 		System.out.println("hello world!");
 		System.out.println(company.getName()+company.getAddress());
+		
+		Employee employee = new Employee("xu", 20, 100.00);
+		System.out.println(employee.getInfo());
 	}
 
 }
