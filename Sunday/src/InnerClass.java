@@ -1,12 +1,15 @@
 
 public class InnerClass {
-	private static String msg = "test";
-	static class Inner{
-		public void print(){
-			System.out.println(msg);
-		}
-
+	private  String msg = "test";
+	public void print(){
+		System.out.println(msg);
 	}
+//	static class Inner{
+//		public void print(){
+//			System.out.println(msg);
+//		}
+//
+//	}
 
 //	public void fun() {
 //		new Inner().print();
